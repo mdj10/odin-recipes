@@ -1,9 +1,9 @@
-body {
+.body {
     font-family: Arial, sans-serif;
     background-color: rgb(145, 168, 243);
 }
 
-h1 {
+.header {
     color: black;
     font-size: 40px;
 }
@@ -12,7 +12,9 @@ h1 {
     font-size: 20px;
 }
 
-img {
+.food-image {
     height: auto;
     width: 500px;
 }
+
+/* Best to only use class selectors (No type or id selector unless absolutely necessary */
