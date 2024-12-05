@@ -1,20 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
 .body {
     font-family: Arial, sans-serif;
-    background-color: rgb(145, 168, 243);
+    background-color: rgb(0, 0, 0);
+}
+
+/* Header Styles */
+
+.header-div {
+    margin: 30px;
 }
 
 .header {
-    color: black;
-    font-size: 40px;
+    display: block; 
+    height: auto;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 100px;
+}
+
+/* Line Break */
+
+.line-break {
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid white;
+}
+
+/* List Styles */
+
+.ul-div {
+    margin: 30px;
 }
 
 .links {
-    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: -40px; 
+    /* Margin left used to fix white space at the beginning of ul */
 }
 
-.food-image {
-    height: auto;
-    width: 500px;
+a:hover  {
+    color: white;
+    background-color: green;
+    padding: 5px;
+    font-weight: bold;
+}
+
+a:visited {
+    color: white;
+}
+
+.link-style {
+    margin: 10px;
+    display: inline;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Best to only use class selectors (No type or id selector unless absolutely necessary) */
